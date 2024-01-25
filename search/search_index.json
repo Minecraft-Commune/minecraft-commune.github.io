@@ -1,18 +1,1 @@
-{
-                "config":{
-                                    "indexing":"full",
-                                    "lang":[
-                                                                "en"
-                                    ],
-                                    "min_search_length":3,
-                                    "prebuild_index":false,
-                                    "separator":"[\u005cs\u005c-]+"
-                },
-                "docs":[
-                                    {
-                                                                "location":"index.html",
-                                                                "text":"Home - Minecraft Commune",
-                                                                "title":"Home"
-                                    }
-                ]
-    }
+{"config": {"indexing": "full", "lang": ["en"], "min_search_length": 3, "prebuild_index": false, "separator": "[\\s\\-]+"}, "docs": [{"location": "index.html", "text": "Home - Minecraft Commune", "title": "Home"}]}
