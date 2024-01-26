@@ -104,7 +104,7 @@
                 </div>
             </nav>
             <main class="md-main" data-md-component="main">
-                <iframe id="ifr2" name="myiFrame" src="." width="100%" height="100%" frameborder="0" allowfullscreen="" onload="__md_check();"></iframe>
+                <iframe id="ifr2" name="myiFrame" src="home.html" width="100%" height="100%" frameborder="0" allowfullscreen="" onload="__md_check();"></iframe>
                 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style>
                     <div class="md-sidebar__scrollwrap" style>
                         <div class="md-sidebar__inner">
@@ -133,9 +133,10 @@
                 </div>
             </main>
         </div>
+<script>var ifm= document.getElementById("ifr2");if(ifm.src=="index.html"||ifm.src=="."||ifm.src==''){ifm.src="home.html";}</script>
 <script>function __md_check(){var ifm= document.getElementById("ifr2");if(ifm.onload!=''&&!window.location.search==''){ifm.src=window.location.search.substring(1);ifm.onload='';}}</script>
         <script>var ifm= document.getElementById("ifr2");ifm.height=document.documentElement.clientHeight;ifm.width=document.documentElement.clientWidth;</script>
-<script>if("undefined"==typeof window.parent.window.__md_check){window.location="home.html";}</script>
+
         <script id="__config" type="application/json">{"base": ".", "features": ["navigation.top", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "search.suggest", "search.highlight"], "search": "res/js/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No result", "search.result.one": "1 result", "search.result.other": "# results", "search.result.placeholder": "Search...", "search.result.term.missing": "Missing", "select.version.title": "Select"}}</script>
         <script src="res/js/bundle.9c69f0bc.min.js"></script>
     </body>
