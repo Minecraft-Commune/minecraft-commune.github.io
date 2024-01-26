@@ -26,7 +26,7 @@
             </a>
         </div>
         <div data-md-component="announce"></div>
-        <header class="md-header" data-md-component="header">
+        <header id="theheader" class="md-header" data-md-component="header">
             <nav class="md-header__inner md-grid" aria-label="Header">
                 <a href="index.html" title="Minecraft Commune" class="md-header__button md-logo" aria-label="Minecraft Commune" data-md-component="logo">
                     <img src="res/png/favicon.png" alt="logo">
@@ -92,7 +92,7 @@
             </nav>
         </header>
         <div class="md-container" data-md-component="container">
-            <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+            <nav id="tabs" class="md-tabs" aria-label="Tabs" data-md-component="tabs">
                 <div class="md-tabs__inner md-grid">
                     <ul class="md-tabs__list">
                         <li class="md-tabs__item">
@@ -105,8 +105,8 @@
             </nav>
             <main class="md-main" data-md-component="main">
                 <iframe id="ifr2" name="myiFrame" src="404.html" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
-                <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                    <div class="md-sidebar__scrollwrap">
+                <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style>
+                    <div class="md-sidebar__scrollwrap" style>
                         <div class="md-sidebar__inner">
                             <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
                                 <label class="md-nav__title" for="__drawer">
@@ -133,6 +133,7 @@
                 </div>
             </main>
         </div>
+        <script>var ifm= document.getElementById("ifr2");var bar= document.getElementById("tabs");var thehead= document.getElementById("theheader");ifm.height=document.documentElement.clientHeight;ifm.width=document.documentElement.clientWidth;if(!bar.hidden){}</script>
         <script id="__config" type="application/json">{"base": ".", "features": ["navigation.top", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "search.suggest", "search.highlight"], "search": "res/js/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No result", "search.result.one": "1 result", "search.result.other": "# results", "search.result.placeholder": "Search...", "search.result.term.missing": "Missing", "select.version.title": "Select"}}</script>
         <script src="res/js/bundle.9c69f0bc.min.js"></script>
     </body>
